@@ -55,10 +55,13 @@ nav a:hover {
   color: #522d80;
 }
 .aspot {
-  font-size: 50px;
+  font-size: 100px;
   text-align: center;
   padding-top: 200px;
+  background-image: url('assets/TigerEyes.png');
+  background-size: cover;
   font-family: 'Faster One', sans-serif;
-  height: 400px;
-  background-color: #F66733;
+  height: 600px;
+  color: white;
+
 }
