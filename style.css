@@ -1,0 +1,64 @@
+/* Clemson's Official Orange  #F66733 */
+/* Clemson's Official Purple  #522d80 */
+
+body {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #522d80;
+}
+
+nav {
+  padding: 20px 0;
+  background-color: white;
+  font-size: 18px;
+}
+.logo {
+  display: inline;
+}
+
+.logo img {
+  margin-bottom: -2px;
+  max-width: 18px;
+}
+
+.logo p {
+  display: inline;
+}
+nav a:first-child {
+  padding: 0 10px;
+}
+nav a {
+  color: #F66733;
+  padding: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  outline: none;
+}
+
+.navLinks {
+  font-size: 15px;
+  display: inline;
+  padding-left: 20px;
+}
+
+.navLinks .link {
+  text-transform: uppercase;
+}
+
+.navLinks .link:hover {
+  color: #522d80;
+}
+
+.navLinks .link:active {
+  color: #522d80;
+}
+.aspot {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 200px;
+  font-family: 'Faster One', sans-serif;
+  height: 400px;
+  background-color: #F66733;
+}
