@@ -1,6 +1,5 @@
 /* Clemson's Official Orange  #F66733 */
 /* Clemson's Official Purple  #522d80 */
-
 body {
   margin: 0 auto;
   font-size: 20px;
@@ -9,7 +8,7 @@ body {
 }
 
 nav {
-  padding: 20px 0;
+  padding: 25px 0;
   background-color: white;
   font-size: 18px;
 }
@@ -36,19 +35,18 @@ nav a {
 nav a:hover {
   outline: none;
 }
-
-
 .navLinks {
   font-size: 15px;
-  display: inline;
+  display:inline;
   padding-left: 20px;
+  overflow: hidden;
 }
 
-.navLinks .link {
+.navLinks a {
   text-transform: uppercase;
 }
 
-.navLinks .link:hover {
+.navLinks .link:hover, #dropdown:hover #who {
   color: #522d80;
 }
 
@@ -65,4 +63,30 @@ nav a:hover {
   height: 600px;
   color: white;
 
+}
+
+#dropdown {
+    overflow: hidden;
+    display:inline;
+    background-color: white;
+}
+
+#who-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: -124px;
+}
+
+#who-content a {
+    width: 100%;
+    background-color: white;
+    padding: 20px 15px;
+    display: block;
+    text-align: left;
+}
+
+#dropdown:hover #who-content {
+    display:inline;
 }
