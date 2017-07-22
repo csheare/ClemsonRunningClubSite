@@ -54,14 +54,16 @@ nav a:hover {
   color: #522d80;
 }
 .aspot {
-  font-size: 100px;
+  font-size: 50px;
   text-align: center;
-  padding-top: 200px;
-  background-image: url('assets/TigerEyes.png');
+  padding-top: 75px;
+  background: url('assets/TigerEyes.png');
   background-size: cover;
-  font-family: 'Faster One', sans-serif;
-  height: 600px;
+  background-repeat: no-repeat;
+  font-family: 'Monoton', sans-serif;
+  height: 100px;
   color: white;
+  background-position: 0px -350px;;
 
 }
 .aspot:hover{
@@ -114,4 +116,15 @@ nav a:hover {
 
 #dropdown:hover #what-content {
     display:inline;
+}
+.image
+{
+    position:relative;
+}
+
+.image img
+{
+   position:absolute;
+   top:0;
+   left:0;
 }
