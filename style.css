@@ -64,6 +64,11 @@ nav a:hover {
   color: white;
 
 }
+.aspot:hover{
+
+  background-image: url('assets/TigerEyesLit.png');
+
+}
 
 #dropdown {
     overflow: hidden;
@@ -75,7 +80,7 @@ nav a:hover {
     display: none;
     position: absolute;
     z-index: 1;
-    margin-top: 25px;
+    margin-top: 22px;
     margin-left: -124px;
 }
 
@@ -97,7 +102,7 @@ nav a:hover {
     position: absolute;
     z-index: 1;
     margin-left: -120px;
-    margin-top: 25px;
+    margin-top: 22px;
 }
 #what-content a {
     width: 100%;
