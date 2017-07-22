@@ -90,3 +90,23 @@ nav a:hover {
 #dropdown:hover #who-content {
     display:inline;
 }
+
+/*what*/
+#what-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-left: -120px;
+    margin-top: 20px;
+}
+#what-content a {
+    width: 100%;
+    background-color: white;
+    padding: 20px 15px;
+    display: block;
+    text-align: left;
+}
+
+#dropdown:hover #what-content {
+    display:inline;
+}
