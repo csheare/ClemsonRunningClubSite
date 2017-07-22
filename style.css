@@ -63,7 +63,7 @@ nav a:hover {
   font-family: 'Monoton', sans-serif;
   height: 100px;
   color: white;
-  background-position: 0px -350px;;
+  background-position: 0px -385px;
 
 }
 .aspot:hover{
@@ -120,11 +120,22 @@ nav a:hover {
 .image
 {
     position:relative;
+
+
 }
 
 .image img
 {
-   position:absolute;
-   top:0;
-   left:0;
+
+   width: 100% ;
+   height: 600px;
+   background-size: cover;
+
+
+}
+.filler{
+  padding: 10px 0;
+ border-width: 5px;
+ border: 5px;
+  border-color: black;
 }
