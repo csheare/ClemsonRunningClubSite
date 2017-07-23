@@ -117,25 +117,17 @@ nav a:hover {
 #dropdown:hover #what-content {
     display:inline;
 }
-.image
-{
-    position:relative;
 
-
-}
 
 .image img
 {
-
-   width: 100% ;
-   height: 600px;
+   width: 50% ;
+   height: 500px;
    background-size: cover;
-
-
+   display: block;
+   margin: 50px auto;
 }
-.filler{
-  padding: 10px 0;
- border-width: 5px;
- border: 5px;
-  border-color: black;
+
+.center-section{
+  display: flex;
 }

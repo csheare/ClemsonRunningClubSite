@@ -4,7 +4,7 @@ $(function() {
 
     setInterval(function()
     {
-        $('.image :first-child').fadeOut(10)
-            .next().fadeIn(10).end().appendTo('.image');
+        $('.image :first-child').fadeOut(-10)
+            .next().fadeIn(-10).end().appendTo('.image');
     },5000);
 });
