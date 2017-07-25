@@ -1,10 +1,10 @@
-$(function() {
+$("#slideshow > div:gt(0)").hide();
 
-    $('.image img:gt(0)').hide(); // to hide all but the first image when page loads
-
-    setInterval(function()
-    {
-        $('.image :first-child').fadeOut(-10)
-            .next().fadeIn(-10).end().appendTo('.image');
-    },5000);
-});
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+}, 3000);
