@@ -5,6 +5,7 @@ body {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #522d80;
+  overflow:hidden;
 }
 
 nav {
