@@ -4,14 +4,13 @@ body {
   margin: 0 auto;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  color: #522d80;
 
 }
-
 nav {
   padding: 25px 0;
   background-color: white;
   font-size: 18px;
+
 }
 .logo {
   display: inline;
@@ -34,9 +33,10 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  outline: none  !important;
+  text-decoration:none;
   color: #522d80;
 }
+
 .navLinks {
   font-size: 15px;
   display:inline;
@@ -48,13 +48,19 @@ nav a:hover {
   text-transform: uppercase;
 }
 
-.navLinks .link:hover, #dropdown:hover #who {
+.navLinks .link:hover, #dropdown:hover{
+  text-decoration:none;
   color: #522d80;
+}
+.navLinks .link:active{
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+.navLinks #dropdown .link:active{
+  text-decoration: : white !important;
 }
 
-.navLinks .link:active {
-  color: #522d80;
-}
+
 .aspot {
   font-size: 50px;
   text-align: center;
@@ -68,9 +74,14 @@ nav a:hover {
   color: white;
   background-position: 0px -385px;
 
+
 }
 .aspot:hover{
   background-image: url('assets/TigerEyesLit.png');
+}
+
+.sublink{
+  font-size:12px;
 }
 
 #dropdown {
@@ -88,7 +99,7 @@ nav a:hover {
 }
 
 #who-content a {
-    width: 100px;
+    width: 120px;
     background-color: white;
     padding: 20px 15px;
     display: block;
@@ -108,7 +119,7 @@ nav a:hover {
     margin-top: 22px;
 }
 #what-content a {
-    width: 100px;
+    width: 120px;
     background-color: white;
     padding: 20px 15px;
     display: block;
@@ -124,9 +135,6 @@ nav a:hover {
 }
 .carousel {
   height: 580px;
-  /*margin-bottom: 20px;
-  margin-top:20px;*/
-  /*position: absolute !important;*/
   overflow: hidden;
 }
 
