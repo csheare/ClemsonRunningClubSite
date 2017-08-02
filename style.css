@@ -52,10 +52,7 @@ nav a:hover {
   text-decoration:none;
   color: #522d80;
 }
-.navLinks .link:active{
-  text-decoration: underline;
-  text-decoration-color: black;
-}
+
 .navLinks #dropdown .link:active{
   text-decoration: : white !important;
 }
@@ -176,4 +173,14 @@ nav a:hover {
 #social img:hover {
   height: 150px;
   width: 150px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    margin-left: -30px;
+    margin-right: 675px;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
