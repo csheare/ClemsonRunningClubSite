@@ -133,6 +133,7 @@ nav a:hover {
 .carousel {
   height: 580px;
   overflow: hidden;
+  position:fixed;
 }
 
 .carousel-inner > .item > img {
