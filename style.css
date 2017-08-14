@@ -185,3 +185,28 @@ nav a:hover {
     background-color: #fff;
     border: 1px solid #ddd;
 }
+#cox{
+  color: #F66733;
+  text-align: center;
+  font-size: 30px;
+  margin: 40px;
+}
+#map{
+
+}
+#landscape img{
+  width:500px;
+  height: 200px;
+  display:block;
+  margin:auto;
+  margin-top:15px;
+}
+#whoweare{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #522d80;
+}
+#paragraph{
+  margin:20px;
+  font-size: 20px;
+}
