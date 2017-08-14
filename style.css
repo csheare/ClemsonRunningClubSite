@@ -192,7 +192,8 @@ nav a:hover {
   margin: 40px;
 }
 #map{
-
+  display:block;
+  margin:auto;
 }
 #landscape img{
   width:500px;
