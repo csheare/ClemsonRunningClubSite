@@ -202,12 +202,40 @@ nav a:hover {
   margin:auto;
   margin-top:15px;
 }
-#whoweare{
+.info{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #522d80;
+  margin:0;
 }
 #paragraph{
   margin:20px;
   font-size: 20px;
+}
+.header{
+  margin: 20px 300px 20px 300px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #522d80;
+
+}
+.body{
+  margin: 20px 300px 20px 300px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #F66733;
+}
+#image{
+  margin-bottom:50px;
+}
+.officer{
+  font-size: 25px;
+}
+.bio{
+
+  margin-left: :300px;
+
 }
