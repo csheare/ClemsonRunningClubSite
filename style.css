@@ -207,6 +207,7 @@ nav a:hover {
   font-family: 'Montserrat', sans-serif;
   color: #522d80;
   margin:0;
+
 }
 #paragraph{
   margin:20px;
@@ -228,14 +229,25 @@ nav a:hover {
   font-family: 'Montserrat', sans-serif;
   color: #F66733;
 }
-#image{
-  margin-bottom:50px;
-}
-.officer{
+
+.officer-title{
   font-size: 25px;
+  margin-bottom:25px;
+  margin-top:25px;
 }
-.bio{
+.bio-container{
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  align-content: flex-start
 
-  margin-left: :300px;
-
+}
+.bio-list{
+  list-style-type:none;
+  text-align: left;
+  width:400px;
+}
+.bio-pic{
+  width:250px;
+  height:250px;
 }
