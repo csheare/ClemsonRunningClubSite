@@ -260,3 +260,33 @@ nav a:hover {
   color: #522d80;
   text-decoration: none;
 }
+
+#all-race-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.race-header{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #522d80;
+
+}
+.race-container{
+  margin:50px;
+  width:300px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.race-info{
+  padding:0;
+
+  list-style-type:none;
+  color: #F66733;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+}
