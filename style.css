@@ -239,7 +239,8 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   display:flex;
-  align-content: flex-start
+  align-content: flex-start;
+  margin-bottom:20px;
 
 }
 .bio-list{
@@ -248,6 +249,14 @@ nav a:hover {
   width:400px;
 }
 .bio-pic{
-  width:250px;
-  height:250px;
+  width:270px;
+  height:280px;
+}
+#sponsors{
+  margin-top:50px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #522d80;
+  text-decoration: none;
 }
