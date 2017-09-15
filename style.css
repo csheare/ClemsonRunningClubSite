@@ -329,3 +329,8 @@ table {
 .roster:hover{
   color:#F66733;
 }
+
+#strava iframe{
+  display:block;
+  margin:0 auto;
+}
