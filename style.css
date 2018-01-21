@@ -6,14 +6,17 @@ body {
   font-family: 'Montserrat', sans-serif;
 
 }
+
 nav {
-  padding: 25px 0;
+  padding: 24px 0px;
   background-color: white;
   font-size: 18px;
   position: fixed;
+  top: -1px;
   width: 100%;
   z-index: 9999;
 }
+
 .logo {
   display: inline;
   width: 100%;
@@ -210,6 +213,7 @@ nav a:hover {
   font-family: 'Montserrat', sans-serif;
   color: #522d80;
   margin:0;
+  padding-top: 5px;
 
 }
 #paragraph{
