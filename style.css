@@ -83,6 +83,10 @@ nav a:hover {
   background-image: url('assets/TigerEyesLit.png');
 }
 
+#loadeyes {
+  display: none;
+}
+
 .sublink{
   font-size:12px;
 }
