@@ -6,14 +6,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 
 }
+
 nav {
-  padding: 25px 0;
+  padding: 24px 0px;
   background-color: white;
   font-size: 18px;
-
+  position: fixed;
+  top: -1px;
+  width: 100%;
+  z-index: 9999;
 }
+
 .logo {
   display: inline;
+  width: 100%;
 }
 
 .logo img {
@@ -75,6 +81,10 @@ nav a:hover {
 }
 .aspot:hover{
   background-image: url('assets/TigerEyesLit.png');
+}
+
+#loadeyes {
+  display: none;
 }
 
 .sublink{
@@ -207,6 +217,7 @@ nav a:hover {
   font-family: 'Montserrat', sans-serif;
   color: #522d80;
   margin:0;
+  padding-top: 5px;
 
 }
 #paragraph{
@@ -333,4 +344,9 @@ table {
 #strava iframe{
   display:block;
   margin:0 auto;
+}
+
+.newsletters {
+  padding-top: 10px;
+  clear: both;
 }
