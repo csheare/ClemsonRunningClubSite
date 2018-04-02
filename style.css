@@ -272,6 +272,11 @@ nav a:hover {
   text-decoration: none;
 }
 
+.sponsor {
+  height: 350px;
+  margin-bottom: 10px;
+}
+
 #all-race-container{
   display:flex;
   flex-direction: row;
