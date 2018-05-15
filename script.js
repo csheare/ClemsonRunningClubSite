@@ -7,3 +7,5 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+document.addEventListener("touchstart", function(){}, true)
