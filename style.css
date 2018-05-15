@@ -5,6 +5,7 @@ body {
   font-family: 'Georgia';
 }
 
+/*CSS for the sponsor page*/
 .sponsor-page {
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f66733' fill-opacity='0.25' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
@@ -38,6 +39,7 @@ body {
   height: 300px;
 }
 
+/*Navigation Bar CSS*/
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -141,6 +143,7 @@ body {
   }
 }
 
+/*Front Page Parallax Scrolling CSS*/
 body, html {
   height: 100%;
   margin: 0, auto;
@@ -149,7 +152,7 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.7;
+  opacity: 0.75;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -162,13 +165,13 @@ body, html {
 }
 
 .bgimg-2 {
-  background-image: url("img_parallax2.jpg");
+  background-image: url("assets/bgimg-2.jpg");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("img_parallax3.jpg");
-  min-height: 400px;
+  background-image: url("assets/bgimg-2.jpg");
+  min-height: 200px;
 }
 
 .caption {
@@ -189,7 +192,7 @@ body, html {
 }
 
 .caption span.border {
-  background-color: #111;
+  background-color: black;
   color: #fff;
   padding: 18px;
   font-size: 3.0vw;
@@ -208,6 +211,14 @@ body, html {
   text-align: center;
 }
 
+.what {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -215,16 +226,20 @@ body, html {
     }
 }
 
+/*Social Media Buttons CSS*/
 .social-container {
-  background-color: #777777;
-  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-  padding: 20px 0px;
   display:                 flex;
   display:                 -webkit-flex; /* Safari 8 */
   flex-wrap:               wrap;
   -webkit-flex-wrap:       wrap;         /* Safari 8 */
   justify-content:         center;
   -webkit-justify-content: center;
+  position: absolute;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 .social-container .fa {
   padding: 20px;
