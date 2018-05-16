@@ -305,7 +305,7 @@ body, html {
 }
 
 /*Service Page Style*/
-.service-page {
+.service-page, .stripe {
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f66733' fill-opacity='0.25' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
@@ -318,7 +318,7 @@ body, html {
   float: right;
   width: 58%;
   max-height: 460px;;
-  margin-top: 1%;
+  margin-top: 40px;
   margin-right: 2%;
   border-radius: 5px;
   border: 1px #282E34 solid;
@@ -329,11 +329,12 @@ body, html {
 .service-text h3 {
   letter-spacing: 2px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .service-text {
   width: 32%;
-  margin-top: 1%;
+  margin-top: 40px;
   margin-left: 2%;
   padding: 1px 2%;
   background-color: #282E34;
@@ -359,19 +360,83 @@ body, html {
      .service-text {
        width: 92%;
        font-size: 14px;
-
+       margin-top: 2%;
      }
 
      .service-img {
        width: 96%;
+       margin-top: 2%;
      }
 
      .svclogo {
        width: 47%;
+       margin-bottom: 2%;
      }
 }
 
+/*Styling for mobile*/
 @media screen and (max-width: 479px) {
      /* start of phone styles */
+     .sponsor-img {
+       max-width: 98%;
+     }
 
+    .bgimg-3  {
+      min-height: 300px;
+    }
+}
+
+/*Fix for front page*/
+.front-text {
+  text-align: center;
+  padding:10px 80px 20px 80px;
+  text-align: justify;
+  color: #777;
+  background-color:white;
+}
+
+
+/*Contact Page CSS*/
+.newsbutton {
+  border-radius: 4px;
+  background-color: #F66733;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  display: block;
+}
+
+.newsbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.newsbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.newsbutton:hover span {
+  padding-right: 25px;
+}
+
+.newsbutton:hover {
+  background-color: #522d80;
+}
+
+.newsbutton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
