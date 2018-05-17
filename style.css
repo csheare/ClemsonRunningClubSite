@@ -5,11 +5,16 @@ body {
   font-family: 'Georgia';
 }
 
-/*CSS for the sponsor page*/
-.sponsor-page {
+.construction {
+  max-width: 100%;
+}
+
+.stripe {
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f66733' fill-opacity='0.25' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
+
+/*CSS for the sponsor page*/
 
 .sponsor-content {
   display:                 flex;
@@ -21,7 +26,17 @@ body {
 }
 
 .sponsor-banner {
+  color: #464646;
   text-align: center;
+  border: 1px lightgrey solid;
+  margin: 5px auto;
+  width: 370px;
+  border-radius: 5px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .sponsor {
@@ -38,6 +53,10 @@ body {
   border-style: solid;
   height: 300px;
   border-radius: 5%;
+}
+
+.sponsor-img:hover {
+  border-color: blue;
 }
 
 /*Navigation Bar CSS*/
@@ -274,42 +293,44 @@ body, html {
   border-radius: 50%;
 }
 
-.fa-facebook:hover {
-  color: #3B5998;
-  background: white;
+.social-container .fa:hover {
+  padding: 19px;
 }
 
-.fa-facebook {
+.social-container .fa-facebook:hover {
+  color: #3B5998;
+  background: white;
+  border: 1px #3B5998 solid;
+}
+
+.social-container .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-.fa-twitter:hover {
+.social-container .fa-twitter:hover {
   color: #55ACEE;
   background: white;
+  border: 1px #55ACEE solid;
 }
 
-.fa-twitter {
+.social-container .fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
-.fa-instagram:hover{
+.social-container .fa-instagram:hover{
   color: #c32aa3;
   background: white;
+  border: 1px #c32aa3 solid;
 }
 
-.fa-instagram{
+.social-container .fa-instagram{
   background: #c32aa3;
   color: white;
 }
 
 /*Service Page Style*/
-.service-page, .stripe {
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f66733' fill-opacity='0.25' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-}
-
 .service-container {
   width: 100%;
 }
@@ -337,8 +358,13 @@ body, html {
   margin-top: 40px;
   margin-left: 2%;
   padding: 1px 2%;
-  background-color: #282E34;
-  color: white;
+  border: 1px lightgrey solid;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: #464646;;
   border-radius: 5px;
   float: left;
   font-size: 1.25vw;
@@ -397,46 +423,196 @@ body, html {
 
 
 /*Contact Page CSS*/
-.newsbutton {
-  border-radius: 4px;
-  background-color: #F66733;
-  border: none;
-  color: #ffffff;
+
+/* Add a background color and some padding around the form */
+.contact-container {
+    border-radius: 5px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding: 20px 1%;
+    margin: 1%;
+    margin-right: 0;
+    width: 46%;
+    float: left;
+    text-align: center;
+    min-height: 280px;
+    border: 1px lightgrey solid;
+    color: #464646;
+}
+
+.button-container {
+  border-radius: 5px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  padding: 20px 1%;
+  margin: 1%;
+  margin-left: 0;
+  width: 46%;
+  float: right;
   text-align: center;
-  font-size: 20px;
-  padding: 20px;
+  max-height: 280px;
+  border: 1px lightgrey solid;
+  color: #464646;
+}
+
+.mail-add {
+  float: left;
+  text-align: left;
+  font-size: 1.3vw;
+}
+
+.email-add {
+  float: right;
+  text-align: left;
+  font-size: 1.3vw;
+}
+
+.button-container button {
+  width: 80%;
+  padding: 10px 0px;
+  margin: 5px 0px;
+  max-height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.button-container button:focus {
+  outline: 0;
+}
+
+.button-container button:active {
+    border-style: outset;
+    border: none;
+}
+
+.button-container button:hover {
+  background-color: white;
+}
+
+.strava {
   width: 400px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+  margin: 0 auto;
   display: block;
+  padding: 20px 0px;
 }
 
-.newsbutton span {
-  cursor: pointer;
-  display: inline-block;
+.contact-container a {
+  font-weight: normal;
+  color: #F66733;
+  text-decoration: none;
+}
+
+.contact-container a:hover {
+  color: #F66733;
+  text-decoration: underline;
+}
+
+.contact-container a:visited {
+  color: #F66733;
+}
+
+.button-container .fa {
   position: relative;
-  transition: 0.5s;
+  top: -2px;
+  font-size: 25px;
+  float: left;
+  margin-left: 10%;
+  margin-right: -10%
 }
 
-.newsbutton span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+.fb-btn {
+  background-color: #3B5998;
 }
 
-.newsbutton:hover span {
-  padding-right: 25px;
+.fb-btn:hover {
+  color: #3B5998;
+  border: 1px #3B5998 solid;
 }
 
-.newsbutton:hover {
-  background-color: #522d80;
+.fb-btn:hover .fa {
+  color: #3B5998;
+  background-color: white;
 }
 
-.newsbutton:hover span:after {
-  opacity: 1;
-  right: 0;
+.tw-btn {
+  background-color: #55ACEE;
+}
+
+.tw-btn:hover {
+  color: #55ACEE;
+  border: 1px #55ACEE solid;
+}
+
+.tw-btn:hover .fa {
+  color: #55ACEE;
+  background-color: white;
+}
+
+.ig-btn {
+  background-color: #c32aa3;
+}
+
+.ig-btn:hover {
+  color: #c32aa3;
+  border: 1px #c32aa3 solid;
+}
+
+.ig-btn:hover .fa {
+  color: #c32aa3;
+  background-color: white;
+}
+
+.rt-btn {
+  background-color: #F66733;
+}
+
+.rt-btn:hover {
+  color: #F66733;
+  border: 1px #F66733 solid;
+}
+
+@media screen and (max-width: 991px) {
+    .button-container, .contact-container {
+      width: 80%;
+      padding: 1% 1%;
+      margin: 1% 9%;
+      min-height: 0;
+    }
+
+    .mail-add, .email-add {
+      font-size: 2.2vw;
+    }
+}
+
+/*Styling for mobile*/
+@media screen and (max-width: 520px) {
+  .button-container, .contact-container {
+    width: 96%;
+    padding: 1%;
+    margin: 1%;
+  }
+
+  .mail-add, .email-add {
+    font-size: 12px;
+    float: none;
+  }
+
+  .strava {
+    width: 98%;
+    margin: 1%;
+  }
+
+  .button-container button {
+    font-size: 14px;
+  }
 }
