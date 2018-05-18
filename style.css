@@ -29,7 +29,7 @@ body {
   color: #464646;
   text-align: center;
   border: 1px lightgrey solid;
-  margin: 5px auto;
+  margin: 10px auto 5px auto;
   width: 370px;
   border-radius: 5px;
   background: #ffffff; /* Old browsers */
@@ -339,7 +339,7 @@ body, html {
   float: right;
   width: 58%;
   max-height: 460px;;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-right: 2%;
   border-radius: 5px;
   border: 1px #282E34 solid;
@@ -355,7 +355,7 @@ body, html {
 
 .service-text {
   width: 32%;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-left: 2%;
   padding: 1px 2%;
   border: 1px lightgrey solid;
@@ -423,7 +423,6 @@ body, html {
 
 
 /*Contact Page CSS*/
-
 /* Add a background color and some padding around the form */
 .contact-container {
     border-radius: 5px;
@@ -484,6 +483,7 @@ body, html {
   border-radius: 5px;
   cursor: pointer;
   border: none;
+  border: 1px lightgrey solid;
 }
 
 .button-container button:focus {
@@ -615,4 +615,48 @@ body, html {
   .button-container button {
     font-size: 14px;
   }
+}
+
+/*Styling for current members*/
+.officer-container {
+  display:                 flex;
+  display:                 -webkit-flex; /* Safari 8 */
+  flex-wrap:               wrap;
+  -webkit-flex-wrap:       wrap;         /* Safari 8 */
+  justify-content:         center;
+  -webkit-justify-content: center;
+  margin: 5px;
+}
+
+.officer {
+  justify-content: space-around;
+  border-radius: 5px;
+  border: 1px lightgrey solid;
+  color: #464646;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  padding: 10px 0px;
+  width: 370px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.officer img {
+  width: 350px;
+  border-radius: 5px;
+  border: 1px grey solid;
+}
+
+.officer p {
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-family: Georgia;
 }

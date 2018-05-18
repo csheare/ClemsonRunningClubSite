@@ -16,10 +16,35 @@
   <meta property="og:image" content="assets/Running-Club-Tiger.png"/>
   <meta property="og:image:secure_url" content="assets/Running-Club-Tiger.png"/>
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
+
+
+    <!-- Script that loads page with a delay -->
+    <script>
+    document.write('<style>body { visibility: hidden; } </style>');
+    </script>
+
+    <script type="text/javascript">
+    jQuery(document).ready(function(){
+        delay();
+    });
+
+    function delay() {
+        var secs = 10;
+        setTimeout('initFadeIn()', secs);
+    }
+
+    function initFadeIn() {
+        jQuery("body").css("visibility","visible");
+        jQuery("body").css("display","none");
+        jQuery("body").fadeIn(1000);
+    }
+    </script>
+
 
   <body>
     <!-- Top Bar -->
