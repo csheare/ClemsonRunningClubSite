@@ -31,6 +31,7 @@ body {
   border: 1px lightgrey solid;
   margin: 10px auto 5px auto;
   width: 370px;
+  max-width: 98%;
   border-radius: 5px;
   background: #ffffff; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
@@ -640,6 +641,7 @@ body, html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   padding: 10px 0px;
   width: 370px;
+  max-width: 100%;
   text-align: center;
   font-size: 20px;
   letter-spacing: 2px;
@@ -648,6 +650,7 @@ body, html {
 
 .officer img {
   width: 350px;
+  max-width: 100%;
   border-radius: 5px;
   border: 1px grey solid;
 }
