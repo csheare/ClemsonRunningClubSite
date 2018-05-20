@@ -660,3 +660,73 @@ body, html {
   letter-spacing: 1px;
   font-family: Georgia;
 }
+
+/*CSS for Prospective Members*/
+.faq {
+  margin: 1%;
+  margin-right: 0;
+  padding: 1%;
+  width: 46.3%;
+  float: left;
+  border-radius: 5px;
+  border: 1px lightgrey solid;
+  color: #464646;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.faq h1 {
+  text-align: center;
+}
+
+.join {
+  text-align: center;
+  margin: 1%;
+  margin-left: 0;
+  padding: 1%;
+  width: 46.3%;
+  float: right;
+  border-radius: 5px;
+  border: 1px lightgrey solid;
+  color: #464646;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.question {
+  font-weight: bold;
+}
+
+#map {
+  width: 100%;
+  height: 30vw;
+}
+
+#cox {
+  width: 100%;
+  margin-top: 5px;
+  border: 1px grey solid;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 991px) {
+    .join {
+      width: 96%;
+      margin-left: 1%;
+    }
+
+    .faq {
+      width: 96%;
+      margin-right: 1%;
+    }
+
+    #map {
+      height: 60vh;
+    }
+}
