@@ -645,7 +645,8 @@ body, html {
   text-align: center;
   font-size: 20px;
   letter-spacing: 1px;
-  font-family: Arial Black;
+  font-family: Arial;
+  font-weight: bold;
 }
 
 .officer img {
