@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type = "text/css" href="../../style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script type ="text/javascript" src = "../../script.js"></script>
   <!--JQuery-->
 	<link href="https://fonts.googleapis.com/css?family=Russo+One|Faster+One|Montserrat" rel="stylesheet">
@@ -48,7 +49,7 @@
     <!-- Top Bar -->
     <div class="topnav" id="myTopnav">
       <a href="../../index.html">Clemson Running Club</a>
-      <div class="dropdown">
+      <div class="dropdown active">
         <button class="dropbtn">Info
           <i class="fa fa-caret-down"></i>
         </button>
@@ -66,7 +67,31 @@
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
-    <img class="construction" src="../../assets/construction.png" />
+    <div class="container justify-content-center">
+      <div class="col-md-8 route-map-container  justify-content-center">
+          <h2 id="rtmap-header">Short Perimeter ~ 3.14 Miles</h2>
+          <iframe id="rtmap" width="95%" height="375" allowfullscreen frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="http://bit.ly/2LGL9XJ"></iframe>
+          <br/>
+      </div>
+
+      <div class="col-md-4 justify-content-center">
+        <div class="list-group justify-content-center rt-list">
+          <a href="#" class="list-group-item title">Select A Route</a>
+          <a href="#" id="0"  class="list-group-item active" onclick="loadMap(0)">Short Perimeter ~ 3.14 Miles</a>
+          <a href="#" id="1"  class="list-group-item" onclick="loadMap(1)">Botanical Garden ~ 3.84 Miles</a>
+          <a href="#" id="2"  class="list-group-item" onclick="loadMap(2)">Y Beach Loop ~ 4.00 Miles</a>
+          <a href="#" id="3"  class="list-group-item" onclick="loadMap(3)">Long Perimeter ~ 4.34 Miles</a>
+          <a href="#" id="4"  class="list-group-item" onclick="loadMap(4)">Dikes Loop (Clockwise) ~ 4.78 Miles</a>
+          <a href="#" id="5"  class="list-group-item" onclick="loadMap(5)">Dabo Loop ~ 4.83 Miles</a>
+          <a href="#" id="6"  class="list-group-item" onclick="loadMap(6)">Dikes Loop (Counterclockwise) ~ 4.84 Miles</a>
+          <a href="#" id="10" class="list-group-item" onclick="loadMap(10)">Full Neighborhoods ~ 5.40 Miles</a>
+          <a href="#" id="7"  class="list-group-item" onclick="loadMap(7)">Golf Course Neighborhoods ~ 5.12 Miles</a>
+          <a href="#" id="8"  class="list-group-item" onclick="loadMap(8)">Old Central (Clockwise) ~ 6.27 Miles</a>
+          <a href="#" id="9"  class="list-group-item" onclick="loadMap(9)">Old Central (Counterclockwise) ~ 6.27 Miles</a>
+          <a href="#" id="11" class="list-group-item bottom" onclick="loadMap(11)">Country Walk ~ 6.53 Miles</a>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>

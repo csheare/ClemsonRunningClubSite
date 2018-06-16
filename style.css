@@ -64,6 +64,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  z-index: 100;
 }
 
 .topnav a {
@@ -753,3 +754,71 @@ body, html {
 .calendar p {
   font-weight: bold;
 }
+
+
+/*Styling for Routes Page*/
+.route-list {
+  width: 20%;
+  float: right;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+}
+
+.route-map-container {
+  font-family: "Georgia";
+  margin: 10px 0px;
+  padding-bottom: 20px;
+  z-index: -1;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px lightgrey solid;
+  color: #464646;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.dropdown, .dropup {
+  position: inherit !important;
+}
+
+.rt-list {
+  text-align: center;
+  margin: 10px;
+  height: 465px;
+  overflow-y: scroll;
+  font-family: "Georgia";
+  border-top: 1px lightgrey solid;
+  border-radius: 5px;
+  border-bottom: 1px lightgrey solid;
+}
+
+.rt-list .title {
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  pointer-events: none;
+  cursor: default;
+  border: 1px #333 solid;
+}
+
+.rt-list .title:hover {
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+}
+
+.rt-list .bottom {
+  border-bottom: 0px white solid;
+}
+
+.rt-list .active {
+  border-color: #F66733 !important;
+  background-color: #F66733 !important;
+}
+
+.
