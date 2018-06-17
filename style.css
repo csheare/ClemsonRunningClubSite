@@ -770,7 +770,6 @@ body, html {
   font-family: "Georgia";
   margin: 10px 0px;
   padding-bottom: 20px;
-  z-index: -1;
   text-align: center;
   border-radius: 5px;
   border: 1px lightgrey solid;
@@ -821,4 +820,15 @@ body, html {
   background-color: #F66733 !important;
 }
 
-.
+.route-map-container a {
+  color: #333;
+}
+
+.route-map-container a:hover {
+  color: #333;
+}
+
+.route-map-container a:active, .route-map-container a:visited, .route-map-container a:focus, .route-map-container a:hover {
+  color: #333;
+  text-decoration: none;
+}
