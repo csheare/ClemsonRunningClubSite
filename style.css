@@ -832,3 +832,73 @@ body, html {
   color: #333;
   text-decoration: none;
 }
+
+/****************Styling for Racing Page****************/
+
+.race-list {
+  width: 48.5%;
+  float: left;
+  margin: 1% 0% 1% 1%;
+  text-align: center;
+}
+
+.race-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Georgia;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: -2 !important;
+}
+
+.race-list .list-group-item, .race-list ul h2 {
+  line-height: .75;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.race-list h4 {
+  font-weight: 550;
+}
+
+.race-list .item-hidden {
+  color: #fff;
+}
+
+.race-list .orange {
+  color: #f2f2f2 !important;
+  background-color: #F66733 !important;
+  border-color: #F66733 !important;
+}
+
+.race-list .purple {
+  color: #f2f2f2 !important;
+  background-color: #522D80 !important;
+  border-color: #522D80 !important;
+}
+
+.race-list a {
+  color: #f2f2f2 !important;
+  background-color: #333 !important;
+  border-color: #333 !important;
+}
+
+.orb-btn:hover {
+  background-color: #F66733 !important;
+}
+
+.orb-btn:active, .purp-btn:active {
+  padding: 12px 18px;
+}
+
+.purp-btn:hover {
+  background-color: #522D80 !important;
+}
+
+@media screen and (max-width: 950px) {
+  .race-list {
+    width: 94%;
+    margin: 3%;
+  }
+}
