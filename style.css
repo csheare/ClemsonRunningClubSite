@@ -11,6 +11,7 @@ body {
 
 .stripe {
   background-color: #ffffff;
+  font-family: Georgia;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f66733' fill-opacity='0.25' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -134,7 +135,7 @@ body {
     display: block;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 875px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -144,7 +145,7 @@ body {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 875px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -901,4 +902,61 @@ body, html {
     width: 94%;
     margin: 3%;
   }
+}
+
+/*****************Stlyin for Membership Page*******************/
+
+.dues-text {
+  width: 62%;
+  margin: 10px 1% 5px 1%;
+  padding: 1px 1%;
+  border: 1px lightgrey solid;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 65%, #f6f6f6 65%, #f6f6f6 88%, #ededed 92%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 65%,#f6f6f6 65%,#f6f6f6 88%,#ededed 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: #464646;;
+  border-radius: 5px;
+  float: right;
+  font-size: 14px;
+}
+
+.payment-block {
+  width: 35%;
+  margin: 10px 0px 10px 1%;
+  padding: 1px 1% 10px 1%;
+  border: 1px lightgrey solid;
+  background: white;
+  border-radius: 5px;
+  float: left;
+}
+
+.dues-form td {
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+     /* start of medium tablet styles */
+     .dues-text {
+       width: 96%;
+       font-size: 14px;
+       margin: 0px 2% 5px 2%;
+       padding: 1px 2%;
+     }
+
+     .payment-block {
+       width: 375px;
+       margin: 10px 2% 0px 2%;
+     }
+}
+
+@media screen and (max-width: 475px) {
+     /* start of medium tablet styles */
+
+     .payment-block {
+       width: 96%;
+       margin: 10px 2% 0px 2%;
+       padding: 1px 2%;
+     }
 }
