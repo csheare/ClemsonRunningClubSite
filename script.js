@@ -26,4 +26,9 @@ function loadMap(routeNum) {
     var id = "#" + routeNum
     $(".rt-list .list-group-item").removeClass("active");
     $(id).addClass("active");
+    $("#rt-link").attr("href", routes[routeNum]);
 }
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
